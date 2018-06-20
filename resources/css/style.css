@@ -1,0 +1,59 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Universal Styles */
+
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+/* .container {
+   max-width: 1600px;
+   margin: 0 auto;
+} */
+
+.flex {
+  display: flex;
+}
+
+h1 {
+  font-size: 2.25rem;
+  font-family: ;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: ;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-family: ;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 1rem;
+  font-family: ;
+}
+
+p {
+  font-family: ;
+  font-size: 1rem;
+  line-height: 1.1;
+}
+
+/* Navigation bar */
+
+body {
+  padding-top: 70px;
+}
