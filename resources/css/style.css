@@ -14,6 +14,15 @@ body {
   line-height: 1.4;
 }
 
+.container {
+   max-width: 1600px;
+   margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
 /* .container {
    max-width: 1600px;
    margin: 0 auto;
@@ -25,35 +34,164 @@ body {
 
 h1 {
   font-size: 2.25rem;
-  font-family: ;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
 }
 
 h2 {
   font-size: 2rem;
-  font-family: ;
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
 }
 
 h3 {
   font-size: 1.5rem;
-  font-family: ;
+  font-family: 'Montserrat', sans-serif;
   font-weight: bold;
 }
 
 h4 {
   font-size: 1rem;
-  font-family: ;
+  font-family: 'Rokkitt', serif;
 }
 
 p {
-  font-family: ;
+  font-family: 'Rokkitt', serif;
   font-size: 1rem;
   line-height: 1.1;
+}
+
+.button {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 4px;
 }
 
 /* Navigation bar */
 
 body {
   padding-top: 70px;
+}
+
+/* .wusa {
+  background-image: url(../images/wusa_logo.jpeg);
+}
+
+.wull {
+  background-image: url(../images/wull_logo.jpeg);
+}
+
+.risesc {
+  background-image: url(../images/rsc_logo.jpeg);
+}
+
+.sfl {
+  background-image: url(../images/sfl_logo.jpeg);
+}
+
+.hylax {
+  background-image: url(../images/hylax_logo.jpeg);
+} */
+
+/* Vertical center */
+/* html,body,.container {
+ height: 100%;
+ width: auto;
+}
+.container {
+ display: table;
+}
+.row
+{
+ height: 100%;
+ display: table-row;
+}
+.vertical-center
+{
+ display: table-cell;
+ float: none;
+ vertical-align: middle;
+} */
+
+/* .main-content {
+  background-color: beige;
+} */
+
+/* Logo and Banner */
+
+.league-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 150px;
+  width: auto;
+  margin-bottom: 2rem;
+}
+
+img.sfl {
+  height: 180px;
+}
+
+img.wusa {
+  height: 195px;
+}
+
+img.risesc {
+  height: 205px;
+}
+
+/* img.wull {
+  width: 200px;
+} */
+
+.banner .container {
+  display: flex;
+  align-items: center;
+  padding: 2rem 1.5rem;
+  justify-content: flex-start;
+  background-color: rgb(51, 58, 86);
+}
+
+.banner img {
+  width: 40%;
+  padding-right: 1.5rem;
+}
+
+.banner-text {
+  display: inline-flex;
+  position: relative;
+  flex-direction: column;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  color: rgba(247, 245, 230, 0.8);
+}
+
+.banner-text h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+  line-height: 1.1;
+  text-align: center;
+}
+
+.banner-text h3 {
+  font-size: 1.75rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.1;
+  text-align: center;
+  font-weight: 400;
+  font-family: 'Rokkitt', serif;
+}
+
+.banner-text .button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 0;
+  width: 20rem;
+  background-color: rgb(82, 101, 143);
+  color: rgba(247, 245, 230, 0.8);
+  font-size: 2rem;
+  margin-top: 2rem;
 }
