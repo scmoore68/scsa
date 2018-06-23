@@ -322,3 +322,13 @@ img.risesc {
   font-size: 2rem;
   margin: 2rem 0;
 }
+
+.placeholder {
+  background-color: lightslategrey;
+  text-align: center;
+}
+
+.placeholder h1 {
+  margin: 3rem 0;
+  color: white;
+}
