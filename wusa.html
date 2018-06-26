@@ -15,81 +15,56 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css">
     <link href="https://fonts.googleapis.com/css?family=Merriweather:300i|Montserrat:400,500,700,800|Rokkitt:400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="./resources/css/custom.css">
     <link rel="stylesheet" href="./resources/css/style.css">
   </head>
   <body>
-    <!--navbar div with the id-->
     <header>
       <div class="tophead">
-        <div class="container">
-          <div class="logo" aria-label="SCSA logo">
-            <a href="./index.html"><img src="./resources/images/scsa_logo.jpg" alt="SCSA logo"></a>
-          </div>
-            <!-- Mobile icons -->
-            <!-- <a class="mobile" href="#">
-              <img src="./resources/images/ic-on-campus.svg" alt="On Campus icon">
-            </a>
-            <a class="mobile" href="#">
-              <img src="./resources/images/ic-online.svg" alt="Online icon">
-            </a>
-            <a class="mobile" href="#">
-              <img src="./resources/images/ic-login.svg" alt="Sign In icon">
-            </a> -->
-          <!-- </div>
-          <div class="dropdown">
-            <button class="dropbtn">About</button>
-            <div class="dropdown-content">
-              <a href="#">History</a>
-              <a href="#">Leadership</a>
-              <a href="#">Donors</a>
+        <div class="container-custom">
+          <div class="lefthand-head">
+            <div class="logo" aria-label="SCSA logo">
+              <a href="./index.html"><img src="./resources/images/scsa_logo.jpg" alt="SCSA logo"></a>
             </div>
-          </div> -->
-
-          <!-- Menu/navigation -->
-
-            <ul class="nav navbar-nav">
-              <!-- Add  class="active" if you want one of these to be active and also <span class="sr-only"></span> for that item -->
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About<span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="./history.html">History</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li><a href="./leadership.html">Leadership</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li><a href="./donors.html">Donors</a></li>
-                </ul>
-              </li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Member Leagues<span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="./wull.html">West University Little League (WULL)</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li><a href="./wusa.html">West University Softball League (WUSA)</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li><a href="./risesc.html">Rise Soccer Club (Rise SC)</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li><a href="./sfl.html">Southwest Football League (SFL)</a></li>
-                  <li role="separator" class="divider"></li>
-                  <li><a href="./hylax.html">Houston Youth Lacrosse (Hylax)</a></li>
-                </ul>
-              </li>
-              <li><a href="./news.html">News</a></li>
-              <li><a href="./map.html">Map and Directions</a></li>
-            </ul>
-            <form class="navbar-form navbar-left">
-              <div class="form-group">
-                <input type="text" class="form-control" placeholder="Search">
+            <!-- Menu/navigation -->
+            <nav>
+              <div class="dropdown">
+                <button class="dropbtn">About</button>
+                <div class="dropdown-content">
+                  <a href="./history.html">History</a>
+                  <a href="./leadership.html">Leadership</a>
+                  <a href="./donors.html">Donors</a>
+                </div>
               </div>
-              <button type="submit" class="btn btn-default button">Submit</button>
-            </form>
-
-
+              <div class="dropdown">
+                <button class="dropbtn">Member Leagues</button>
+                <div class="dropdown-content">
+                  <a href="./wull.html">West University Little League (WULL)</a>
+                  <a href="./wusa.html">West University Softball League (WUSA)</a>
+                  <a href="./risesc.html">Rise Soccer Club (Rise SC)</a>
+                  <a href="./sfl.html">Southwest Football League (SFL)</a>
+                  <a href="./hylax.html">Houston Youth Lacrosse (HYLAX)</a>
+                </div>
+              </div>
+              <button class="dropbtn nodrop"><a href="./news.html">News</a></button>
+              <button class="dropbtn nodrop"><a href="./map.html">Map and Directions</a></button>
+            </div>
+            <!-- Search box in bootstrap code -->
+            <div class="righthand-head">
+              <form class="navbar-form">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Search">
+                </div>
+                <button type="submit" class="btn button">Submit</button>
+              </form>
+            </div>
+          </nav>
         </div>
       </div>
     </header>
 
     <div class="banner" role:"presentation">
-      <div class="container flex">
+      <div class="container-custom flex">
         <div class="banner-info">
           <span class="banner-logo"><a href="https://www.wusa.org" target="_blank"><img src="./resources/images/wusa_logo.jpeg" alt="WUSA logo"></a></span>
           <span class="banner-text">
@@ -102,7 +77,7 @@
       </div>
     </div>
 
-    <div class="container placeholder">
+    <div class="container-custom placeholder">
       <div class="">
         <h1>ADD MAP OF FIELDS AND PARKING LOTS</h1>
         <h1>ADD CONTACT INFO FOR INQUIRIES (FIELD USAGE, PROGRAMS, ETC.)</h1>
